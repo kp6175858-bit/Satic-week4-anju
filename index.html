@@ -1,73 +1,122 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI Vibe Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Vibe Static Frontend</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<header class="navbar">
+<!-- HEADER -->
+<header class="header">
   <div class="logo">AI<span>Vibe</span></div>
-
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-
-  <div class="hamburger" id="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
+  <nav class="nav" id="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
   </div>
 </header>
 
-<!-- ===== HERO ===== -->
+<!-- HERO -->
 <section class="hero" id="home">
-  <h1>Build Future With <span>AI Vibe</span></h1>
+  <h1>Build Confident <span>Frontend</span> with AI</h1>
   <p>
-    We design <span>modern</span>, <span>responsive</span> and
-    <span>AI-powered</span> static websites using clean code.
+    A complete static frontend project built using AI-assisted coding,
+    focusing on structure, layout, responsiveness, cleanup and final polish.
   </p>
-  <a href="#features" class="btn">Explore Features</a>
+  <button>Explore More</button>
 </section>
 
-<!-- ===== ABOUT ===== -->
-<section class="section" id="about">
-  <h2>About <span>Us</span></h2>
+<!-- ABOUT -->
+<section class="about" id="about">
+  <h2>About This Project</h2>
   <p>
-    AI Vibe focuses on clarity in layout, smooth animations
-    and mobile-first design approach.
+    This project is part of the Static Frontend Internship program.
+    It demonstrates how to rebuild, improve and polish a static website
+    step-by-step using AI guidance while understanding every line of code.
   </p>
-</section>
 
-<!-- ===== FEATURES ===== -->
-<section class="section" id="features">
-  <h2>Our <span>Features</span></h2>
-
-  <div class="grid">
-    <div class="card">Clean Layout</div>
-    <div class="card">AI Assisted CSS</div>
-    <div class="card">Smooth Animations</div>
+  <div class="about-grid">
+    <div class="card">Clean HTML Structure</div>
+    <div class="card">CSS Layout & Spacing</div>
     <div class="card">Responsive Design</div>
+    <div class="card">Animation & Polish</div>
   </div>
 </section>
 
-<!-- ===== CONTACT ===== -->
-<section class="section" id="contact">
-  <h2>Contact <span>Us</span></h2>
-  <p>Email: aivibe@gmail.com</p>
+<!-- FEATURES -->
+<section class="features" id="features">
+  <h2>Powerful Features</h2>
+  <div class="feature-grid">
+    <div class="feature">⚡ Fast Static Performance</div>
+    <div class="feature">📱 Mobile & Tablet Friendly</div>
+    <div class="feature">🎨 Clean UI Layout</div>
+    <div class="feature">🤖 AI Assisted Coding</div>
+    <div class="feature">🧹 Refactored Code</div>
+    <div class="feature">🚀 Deployment Ready</div>
+  </div>
 </section>
 
+<!-- SERVICES -->
+<section class="services" id="services">
+  <h2>What We Built</h2>
+  <div class="service-grid">
+    <div class="service-box">
+      <h3>Static Website Rebuild</h3>
+      <p>
+        Rebuilt the complete website structure using semantic HTML.
+      </p>
+    </div>
+
+    <div class="service-box">
+      <h3>Layout & Sections</h3>
+      <p>
+        Applied Flexbox and Grid to create clean layouts and spacing.
+      </p>
+    </div>
+
+    <div class="service-box">
+      <h3>Responsive Design</h3>
+      <p>
+        Media queries added to support mobile and tablet screens.
+      </p>
+    </div>
+
+    <div class="service-box">
+      <h3>Final Polish</h3>
+      <p>
+        Added animations, hover effects and smooth interactions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Get in Touch</h2>
+  <p>
+    This project reflects confidence, clarity and execution.
+    Ready to be deployed and reviewed.
+  </p>
+  <button>Contact Now</button>
+</section>
+
+<!-- FOOTER -->
 <footer class="footer">
-  <p>© 2026 <span>AI Vibe</span>. All Rights Reserved</p>
+  <p>
+    © 2026 Static Frontend Internship  
+    <br>
+    “Execution over explanation”
+  </p>
 </footer>
 
 <script src="script.js"></script>
 </body>
-  </html>
+</html>
+
